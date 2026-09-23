@@ -1,0 +1,9 @@
+{
+  "name": "pvz-cocos",
+  "version": "1.0.0",
+  "description": "植物大战僵尸 - 基于 Cocos Creator 3.8.x",
+  "author": "PVZ Team",
+  "creator": {
+    "version": "3.8.5"
+  }
+}

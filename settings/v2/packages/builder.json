@@ -1,0 +1,54 @@
+{
+  "common": {
+    "platform": "android",
+    "buildPath": "build/android",
+    "debug": false,
+    "sourceMap": false,
+    "platformOptions": {
+      "android": {
+        "packageName": "com.pvz.cocos",
+        "orientation": {
+          "landscapeLeft": true,
+          "landscapeRight": true,
+          "portrait": false,
+          "upsideDown": false
+        },
+        "apiLevel": "30",
+        "appAbis": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystoreAlias": "",
+        "keystorePassword": "",
+        "keystoreAliasPassword": "",
+        "outputName": "PVZ-release",
+        "aab": false,
+        "androidStudioPath": "",
+        "skipUploadToGooglePlay": true
+      }
+    }
+  },
+  "platforms": {
+    "android": {
+      "packageName": "com.pvz.cocos",
+      "orientation": {
+        "landscapeLeft": true,
+        "landscapeRight": true,
+        "portrait": false,
+        "upsideDown": false
+      },
+      "apiLevel": "30",
+      "appAbis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "useDebugKeystore": true,
+      "outputName": "PVZ"
+    }
+  },
+  "platformOrder": [
+    "android"
+  ]
+}

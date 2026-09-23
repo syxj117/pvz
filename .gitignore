@@ -1,0 +1,29 @@
+# ============ Cocos Creator ============
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/native/
+/clang-debug/
+/conan/
+
+# ============ 系统/IDE ============
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# ============ 临时文件 ============
+*.tmp
+*.swp
+*~
+
+# ============ .meta 文件必须入库（红线，禁止忽略）============
+# Cocos Creator 中每个资源（.ts/.prefab/.scene/.png/.mp3/...）都对应一个 .meta，
+# 内含 GUID 与引用关系，缺失会导致编辑器引用全部断裂。
+# 因此本 .gitignore 从不忽略 *.meta，亦禁止任何人手动加入忽略规则。
+# 见 docs/TECH_SPEC.md §13.2 / §17
+
+# ============ Git LFS 大文件 ============
+# 见 .gitattributes，统一走 LFS

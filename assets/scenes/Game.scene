@@ -1,0 +1,189 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "Game",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "scene": { "__id__": 1 }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_name": "Game",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "_parent": null,
+    "_children": [
+      { "__id__": 2 }
+    ],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "autoReleaseAssets": false,
+    "_globals": { "__id__": 10 }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "_parent": { "__id__": 1 },
+    "_children": [
+      { "__id__": 4 },
+      { "__id__": 6 },
+      { "__id__": 7 },
+      { "__id__": 8 },
+      { "__id__": 9 }
+    ],
+    "_active": true,
+    "_components": [
+      { "__id__": 3 }
+    ],
+    "_prefab": null,
+    "_lpos": { "__type__": "cc.Vec3", "x": 0, "y": 0, "z": 0 },
+    "_lrot": { "__type__": "cc.Quat", "x": 0, "y": 0, "z": 0, "w": 1 },
+    "_lscale": { "__type__": "cc.Vec3", "x": 1, "y": 1, "z": 1 },
+    "_mobility": 0,
+    "_layer": 33554432
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "node": { "__id__": 2 },
+    "_enabled": true,
+    "_contentSize": { "__type__": "cc.Size", "width": 1280, "height": 720 },
+    "_anchorPoint": { "__type__": "cc.Vec2", "x": 0.5, "y": 0.5 }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Camera",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "_parent": { "__id__": 2 },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      { "__id__": 5 }
+    ],
+    "_prefab": null,
+    "_lpos": { "__type__": "cc.Vec3", "x": 0, "y": 0, "z": 1000 },
+    "_lrot": { "__type__": "cc.Quat", "x": 0, "y": 0, "z": 0, "w": 1 },
+    "_lscale": { "__type__": "cc.Vec3", "x": 1, "y": 1, "z": 1 },
+    "_mobility": 0,
+    "_layer": 1073741824
+  },
+  {
+    "__type__": "cc.Camera",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "node": { "__id__": 4 },
+    "_enabled": true,
+    "_projection": 0,
+    "_priority": 1073741824,
+    "_fov": 45,
+    "_orthoHeight": 360,
+    "_near": 1,
+    "_far": 2000,
+    "_visibility": 1,
+    "_clearFlags": 6,
+    "_color": { "__type__": "cc.Color", "r": 0, "g": 0, "b": 0, "a": 255 },
+    "_rect": { "__type__": "cc.Rect", "x": 0, "y": 0, "width": 1, "height": 1 }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Background",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "_parent": { "__id__": 2 },
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_lpos": { "__type__": "cc.Vec3", "x": 0, "y": 0, "z": 0 },
+    "_lrot": { "__type__": "cc.Quat", "x": 0, "y": 0, "z": 0, "w": 1 },
+    "_lscale": { "__type__": "cc.Vec3", "x": 1, "y": 1, "z": 1 },
+    "_mobility": 0,
+    "_layer": 33554432
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "GridLayer",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "_parent": { "__id__": 2 },
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_lpos": { "__type__": "cc.Vec3", "x": 0, "y": 0, "z": 0 },
+    "_lrot": { "__type__": "cc.Quat", "x": 0, "y": 0, "z": 0, "w": 1 },
+    "_lscale": { "__type__": "cc.Vec3", "x": 1, "y": 1, "z": 1 },
+    "_mobility": 0,
+    "_layer": 33554432
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "EntityManager",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "_parent": { "__id__": 2 },
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_lpos": { "__type__": "cc.Vec3", "x": 0, "y": 0, "z": 0 },
+    "_lrot": { "__type__": "cc.Quat", "x": 0, "y": 0, "z": 0, "w": 1 },
+    "_lscale": { "__type__": "cc.Vec3", "x": 1, "y": 1, "z": 1 },
+    "_mobility": 0,
+    "_layer": 33554432
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "UICanvas",
+    "_objFlags": 0,
+    "__editorExtras": {},
+    "_parent": { "__id__": 2 },
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_lpos": { "__type__": "cc.Vec3", "x": 0, "y": 0, "z": 0 },
+    "_lrot": { "__type__": "cc.Quat", "x": 0, "y": 0, "z": 0, "w": 1 },
+    "_lscale": { "__type__": "cc.Vec3", "x": 1, "y": 1, "z": 1 },
+    "_mobility": 0,
+    "_layer": 33554432
+  },
+  {
+    "__type__": "cc.SceneGlobals",
+    "ambient": { "__id__": 11 },
+    "shadowMap": { "__id__": 12 },
+    "fog": { "__id__": 13 },
+    "skybox": { "__id__": 14 }
+  },
+  {
+    "__type__": "cc.Ambient",
+    "_skyColor": { "__type__": "cc.Color", "r": 51, "g": 51, "b": 51, "a": 255 },
+    "_groundColor": { "__type__": "cc.Color", "r": 51, "g": 51, "b": 51, "a": 255 },
+    "_skyIllum": 0.2
+  },
+  {
+    "__type__": "cc.ShadowsMapInfo",
+    "_enabled": false,
+    "_texture": null
+  },
+  {
+    "__type__": "cc.FogInfo",
+    "_enabled": false,
+    "_fogColor": { "__type__": "cc.Color", "r": 51, "g": 51, "b": 51, "a": 255 },
+    "_fogDensity": 0.3,
+    "_fogStart": 0.5,
+    "_fogEnd": 1
+  },
+  {
+    "__type__": "cc.SkyboxInfo",
+    "_enabled": false,
+    "_texture": null
+  }
+]

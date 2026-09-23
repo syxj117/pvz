@@ -1,0 +1,35 @@
+{
+  "title": "植物大战僵尸",
+  "project": {
+    "name": "pvz-cocos",
+    "version": "1.0.0"
+  },
+  "general": {
+    "startScene": "current",
+    "designResolution": {
+      "width": 1280,
+      "height": 720,
+      "policy": 3
+    },
+    "fitWidth": false,
+    "fitHeight": true
+  },
+  "render": {
+    "renderPipeline": ""
+  },
+  "preview": {
+    "orientation": "landscape",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "engine": {
+    "modules": [
+      "2d",
+      "ui",
+      "physics-2d-box2d",
+      "tween"
+    ]
+  }
+}
